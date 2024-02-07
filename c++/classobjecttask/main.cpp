@@ -1,3 +1,49 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a;
+int b;
+cout<<"enter the value of A :";
+cin>>a;
+cout<<" enter the value of B is :";
+cin>>b;
+int *x=&a;
+cout<<"The address of a is "<<x<<endl;
+cout<<"the value present in the "<<x<<" is : "<<*x<<endl;
+int *y=&b;
+cout<<"The address of b is "<<y<<endl;
+cout<<"the value present in the "<<y<<" is : "<<*y<<endl;
+return 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -101,7 +147,7 @@ class aadharid
         int age;
          cout <<"enter the age";
          cin >>age;
-        if (age>=5)
+        if (age>=18)
         {
 
          cout <<"you are eligible for biometric";
@@ -116,10 +162,10 @@ class aadharid
  aadharid(float age)
  {
 
-   if (age>4.9)
+   if (age>18.5)
  {
 
-     cout <<"eligible fore bio";
+     cout <<"eligible for bio";
  }
   else
   {
@@ -138,7 +184,7 @@ int main()
      cout << "enter the second age";
      cin >> age;
      aadharid ad1(age);
-}
+}*/
 
 
 
@@ -307,7 +353,7 @@ int main()
     AOP.increment();
 
     return 0;
-}*/
+}
 
 
 
